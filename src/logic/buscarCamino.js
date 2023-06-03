@@ -105,7 +105,7 @@ export function buscarCamino(inputCaballos, inputRey) {
     );
   }
 
-  const caballosOrdenados = ordenarCaballos();
+  const caballosOrdenados = inputCaballos;
 
   // Definir posibles proximos movimientos de los caballos
   function calcularPosiblesPosicionesCaballos(caballos) {
